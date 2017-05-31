@@ -63,7 +63,7 @@ nav
 			color: rgb(179, 242, 8)
 			font-weight: bold
 .features
-	padding: 0px 120px
+	padding: 0px 100px
 	margin: 50px auto
 	h3
 		text-transform: uppercase
@@ -75,100 +75,103 @@ nav
 		font-family: 'Raleway'
 		padding-bottom: 20px
 .works
-	.work-img
-		background-size: cover
-		background-position: center
-		height: 220px
-	.work-1
-		background-image: url('http://i64.tinypic.com/op3igy.png')
-		@extend .work-img
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.work-2
-		@extend .work-img
-		background-image: url('http://i68.tinypic.com/2zzhuky.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.work-3
-		@extend .work-img
-		background-image: url('http://i65.tinypic.com/ml5b40.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block	
-	.work-4
-		@extend .work-img
-		background-image: url('http://i66.tinypic.com/99dtli.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.work-5
-		@extend .work-img
-		background-image: url('http://i67.tinypic.com/f0nek7.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.work-6
-		@extend .work-img
-		background-image: url('http://i63.tinypic.com/ruy4ye.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.work-7
-		@extend .work-img
-		background-image: url('http://i64.tinypic.com/nbfd3c.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.work-8
-		@extend .work-img
-		background-image: url('http://i65.tinypic.com/ruoh9j.png')
-		&:hover
-			.overlay
-				display: block
-			.project
-				display: block
-	.project
-		top: 50px
-		left: 0
-		right: 0 
-		color: white
-		font-family: 'Raleway'
-		line-height: 30px
-		letter-spacing: 2px
-		display: none
-		position: absolute
-		h3
-			text-transform: uppercase
-			font-weight: bold
-			font-size: 22px
-		p
-			margin-top: 10px
-			font-size: 16px
-			font-weight: bold
-	.overlay
-		width: 100%
-		height: 100%
-		background: rgba(232, 69, 69, 0.8)
-		top: 0
-		left: 0
-		position: absolute
-		display: none
+	.row
+		margin-left: 0
+		margin-right: 0
+		.work-img
+			background-size: cover
+			background-position: center
+			height: 220px
+		.work-1
+			background-image: url('http://i64.tinypic.com/op3igy.png')
+			@extend .work-img
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.work-2
+			@extend .work-img
+			background-image: url('http://i68.tinypic.com/2zzhuky.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.work-3
+			@extend .work-img
+			background-image: url('http://i65.tinypic.com/ml5b40.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block	
+		.work-4
+			@extend .work-img
+			background-image: url('http://i66.tinypic.com/99dtli.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.work-5
+			@extend .work-img
+			background-image: url('http://i67.tinypic.com/f0nek7.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.work-6
+			@extend .work-img
+			background-image: url('http://i63.tinypic.com/ruy4ye.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.work-7
+			@extend .work-img
+			background-image: url('http://i64.tinypic.com/nbfd3c.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.work-8
+			@extend .work-img
+			background-image: url('http://i65.tinypic.com/ruoh9j.png')
+			&:hover
+				.overlay
+					display: block
+				.project
+					display: block
+		.project
+			top: 50px
+			left: 0
+			right: 0 
+			color: white
+			font-family: 'Raleway'
+			line-height: 30px
+			letter-spacing: 2px
+			display: none
+			position: absolute
+			h3
+				text-transform: uppercase
+				font-weight: bold
+				font-size: 22px
+			p
+				margin-top: 10px
+				font-size: 16px
+				font-weight: bold
+		.overlay
+			width: 100%
+			height: 100%
+			background: rgba(232, 69, 69, 0.8)
+			top: 0
+			left: 0
+			position: absolute
+			display: none
 .team
 	padding: 0 180px
 	font-family: 'Raleway'
@@ -193,28 +196,31 @@ nav
 			color: white
 			cursor: pointer
 .client
-	.client-left
-		background-image: url('http://i66.tinypic.com/amshac.png')
-		background-size: cover
-		min-height: 315px
-	.client-right
-		background: rgb(83, 53, 74)
-		min-height: 315px
-		.carousel-indicators
-			top: 260px
-		.client-right-text
-			padding: 50px 120px 50px 60px
-			color: white
-			h2
-				font-style: italic
-				font-family: 'Cardo'
-				font-size: 22px
-			p
-				font-size: 12px
-				font-weight: bold
-				font-family: 'Raleway'
-				text-transform: uppercase
-				margin: 20px auto
+	.row
+		margin-right: 0
+		margin-left: 0
+		.client-left
+			background-image: url('http://i66.tinypic.com/amshac.png')
+			background-size: cover
+			min-height: 315px
+		.client-right
+			background: rgb(83, 53, 74)
+			min-height: 315px
+			.carousel-indicators
+				top: 260px
+			.client-right-text
+				padding: 50px 120px 50px 60px
+				color: white
+				h2
+					font-style: italic
+					font-family: 'Cardo'
+					font-size: 22px
+				p
+					font-size: 12px
+					font-weight: bold
+					font-family: 'Raleway'
+					text-transform: uppercase
+					margin: 20px auto
 .download
 	margin: 60px auto
 	h2
@@ -310,8 +316,15 @@ footer
 		padding: 0 40px
 		text-align: center
 	.client
-		.client-right
-			.client-right-text
-				padding: 20px 40px
+		.row
+			.client-right
+				.client-right-text
+					padding: 40px
 	.foot
 		padding: 20px 30px
+@media(max-width: 767px)
+	.client
+		.row
+			.client-right
+				.client-right-text
+					padding: 10px
